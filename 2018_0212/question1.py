@@ -35,10 +35,12 @@ if __name__ == '__main__':
     user_input = [-1, 3, -1, 5]
     arr_sum(user_input)
     print()
+
     print('Input: [-5, -3, -1]')
     user_input = [-5, -3, -1]
     arr_sum(user_input)
     print()
+
     print('Input: [2, 4, -2, -3, 8]')
     user_input = [2, 4, -2, -3, 8]
     arr_sum(user_input)
