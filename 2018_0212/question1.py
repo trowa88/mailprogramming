@@ -16,7 +16,6 @@ Output: 9 // 2 + 4 + (-2) + (-3) + 8
 
 
 def arr_sum(arr):
-    result = []
     start_index = None
     end_index = len(arr) - 1
     for i, x in enumerate(arr):
