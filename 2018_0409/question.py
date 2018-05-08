@@ -29,6 +29,17 @@ def zero_move_right(in_list):
     return result
 
 
-# int_list = [0, 5, 0, 3, -1]
-int_list = [3, 0, 3]
+# answer
+def solve(in_list):
+    position = 0
+    for i, v in enumerate(in_list):
+        if v != 0:
+            in_list[i], in_list[position] = in_list[position], in_list[i]
+            position += 1
+    return in_list
+
+
+int_list = [0, 5, 0, 3, -1]
+# int_list = [3, 0, 3]
 print(zero_move_right(int_list))
+print(solve(int_list))
